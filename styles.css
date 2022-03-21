@@ -1,0 +1,67 @@
+.card::after {
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 1) 50%,
+    rgba(255, 255, 255, 0.5) 80%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 100px;
+  width: 100%;
+  right: 0;
+  z-index: 1;
+}
+.card::before {
+  content: "";
+  position: absolute;
+  right: 0;
+  height: 100px;
+  width: 100%;
+  z-index: 10;
+  bottom: -10px;
+  right: 0;
+  background: linear-gradient(
+    to top,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 1) 50%,
+    rgba(255, 255, 255, 0.5) 80%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+.cards::after {
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 1) 50%,
+    rgba(255, 255, 255, 0.5) 80%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 50px;
+  width: 100%;
+  right: 0;
+  z-index: 1;
+}
+.cards::before {
+  content: "";
+  position: absolute;
+  right: 0;
+  height: 50px;
+  width: 100%;
+  z-index: 10;
+  bottom: -10px;
+  right: 0;
+  background: linear-gradient(
+    to top,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 1) 50%,
+    rgba(255, 255, 255, 0.5) 80%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
